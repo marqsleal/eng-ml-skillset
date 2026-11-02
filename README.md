@@ -19,6 +19,12 @@ Catálogo de skills para orientar agentes de código em boas práticas. Cada dir
 | SQL / Athena | [sql-athena-exploration](skills/sql-athena-exploration/SKILL.md) | Descoberta e exploração de dados com guardrails |
 | SQL / Athena | [sql-athena-performance](skills/sql-athena-performance/SKILL.md) | Planos, desempenho e custos de consultas |
 | SQL / Athena | [sql-athena-tooling](skills/sql-athena-tooling/SKILL.md) | AWS CLI para Glue, Athena e artefatos de consultas |
+| SQL / Spark | [sql-spark-coding-standards](skills/sql-spark-coding-standards/SKILL.md) | Construção, revisão e validação de consultas Spark SQL |
+| PySpark | [pyspark-coding-standards](skills/pyspark-coding-standards/SKILL.md) | DataFrames, Spark SQL e transformações batch |
+| PySpark | [pyspark-performance](skills/pyspark-performance/SKILL.md) | Planos, particionamento, execução e desempenho |
+| PySpark | [pyspark-testing](skills/pyspark-testing/SKILL.md) | Testes locais e validação de transformações |
+| PySpark | [pyspark-streaming](skills/pyspark-streaming/SKILL.md) | Structured Streaming, estado e recuperação |
+| PySpark | [pyspark-tooling](skills/pyspark-tooling/SKILL.md) | Ambiente, execução e diagnóstico |
 | Terraform | [terraform-coding-standards](skills/terraform-coding-standards/SKILL.md) | Configuração e módulos de infraestrutura |
 | Workflow | [workflow-interview-me](skills/workflow-interview-me/SKILL.md) | Esclarecimento de necessidades |
 | Workflow | [workflow-spec-driven-development](skills/workflow-spec-driven-development/SKILL.md) | Especificações e requisitos |
