@@ -21,5 +21,3 @@ Catálogo de skills para orientar agentes de código em boas práticas. Cada dir
 | Workflow | [workflow-test-driven-development](skills/workflow-test-driven-development/SKILL.md) | Desenvolvimento orientado por testes |
 | Workflow | [workflow-documentation-and-adrs](skills/workflow-documentation-and-adrs/SKILL.md) | Documentação e decisões arquiteturais |
 | Workflow | [workflow-using-agent-skills](skills/workflow-using-agent-skills/SKILL.md) | Descoberta e seleção de skills |
-
-Para disponibilizar uma skill no Codex, copie seu diretório para `~/.codex/skills/` e reinicie a sessão. As instruções de cada skill complementam as convenções e requisitos do projeto em que ela for utilizada.
