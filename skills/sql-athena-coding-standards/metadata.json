@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "author": "skillset contributors",
+  "abstract": "Write or review SQL for Amazon Athena, including query correctness, readability, and engine-specific behavior.",
+  "categories": 6,
+  "rules": 6,
+  "sections": [
+    {
+      "prefix": "analytics",
+      "name": "Analytic SQL patterns",
+      "count": 1
+    },
+    {
+      "prefix": "dates-regex",
+      "name": "Dates, timestamps and regular expressions",
+      "count": 1
+    },
+    {
+      "prefix": "formatting",
+      "name": "Human-readable Athena SQL formatting",
+      "count": 1
+    },
+    {
+      "prefix": "query-patterns",
+      "name": "Athena query patterns",
+      "count": 1
+    },
+    {
+      "prefix": "review",
+      "name": "Review and debugging",
+      "count": 1
+    },
+    {
+      "prefix": "sql",
+      "name": "Athena SQL design and review",
+      "count": 1
+    }
+  ]
+}

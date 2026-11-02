@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "author": "skillset contributors",
+  "abstract": "Apply test-driven development when requested or when adding a meaningful regression test before changing behavior would reduce risk.",
+  "categories": 0,
+  "rules": 0,
+  "sections": []
+}

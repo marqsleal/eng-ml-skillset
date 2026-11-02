@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "author": "skillset contributors",
+  "abstract": "Use AWS CLI to inspect Glue catalog metadata and run or diagnose Amazon Athena queries with persisted artifacts.",
+  "categories": 3,
+  "rules": 3,
+  "sections": [
+    {
+      "prefix": "cli",
+      "name": "AWS CLI workflow and artifacts",
+      "count": 1
+    },
+    {
+      "prefix": "examples",
+      "name": "Result contract and CLI examples",
+      "count": 1
+    },
+    {
+      "prefix": "operations",
+      "name": "Athena operations and diagnosis",
+      "count": 1
+    }
+  ]
+}

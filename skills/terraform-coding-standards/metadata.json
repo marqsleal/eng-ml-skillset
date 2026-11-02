@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "author": "skillset contributors",
+  "abstract": "Apply Terraform best practices when writing, reviewing, or refactoring infrastructure configuration and modules.",
+  "categories": 0,
+  "rules": 0,
+  "sections": []
+}

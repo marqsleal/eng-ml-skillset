@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "author": "skillset contributors",
+  "abstract": "Discover and select applicable agent skills for a task when the user requests guidance on skills or the workflow requires choosing among available skills.",
+  "categories": 0,
+  "rules": 0,
+  "sections": []
+}

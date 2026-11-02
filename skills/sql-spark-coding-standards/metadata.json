@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "author": "skillset contributors",
+  "abstract": "Write, review and validate Spark SQL queries for Spark SQL interfaces, notebooks, applications or SQL files, independently of the host language.",
+  "categories": 3,
+  "rules": 3,
+  "sections": [
+    {
+      "prefix": "design",
+      "name": "Designing readable, correct Spark SQL",
+      "count": 1
+    },
+    {
+      "prefix": "recipes",
+      "name": "Spark SQL recipes",
+      "count": 1
+    },
+    {
+      "prefix": "validation",
+      "name": "Validation workflow",
+      "count": 1
+    }
+  ]
+}

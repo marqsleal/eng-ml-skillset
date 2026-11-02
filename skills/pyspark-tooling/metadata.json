@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "author": "skillset contributors",
+  "abstract": "Configure PySpark development and validation using Python environment dependencies and tools already adopted by the skillset.",
+  "categories": 1,
+  "rules": 1,
+  "sections": [
+    {
+      "prefix": "tooling",
+      "name": "Python-first tooling and execution",
+      "count": 1
+    }
+  ]
+}

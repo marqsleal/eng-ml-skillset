@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "author": "skillset contributors",
+  "abstract": "Analyze or improve Amazon Athena query performance, scanned data, execution plans, and cost drivers.",
+  "categories": 2,
+  "rules": 2,
+  "sections": [
+    {
+      "prefix": "optimization",
+      "name": "Athena performance and cost",
+      "count": 1
+    },
+    {
+      "prefix": "partition-patterns",
+      "name": "Time partition patterns for Athena",
+      "count": 1
+    }
+  ]
+}

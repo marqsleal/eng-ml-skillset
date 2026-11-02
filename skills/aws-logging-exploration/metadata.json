@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "author": "skillset contributors",
+  "abstract": "Investigate AWS application and service logs with the AWS CLI, including CloudTrail and CloudWatch Logs, while preserving bounded evidence and accounting for cost and coverage.",
+  "categories": 0,
+  "rules": 0,
+  "sections": []
+}

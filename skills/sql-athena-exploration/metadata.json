@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "author": "skillset contributors",
+  "abstract": "Explore Amazon Athena datasets and Glue catalog metadata safely, with bounded sampling and persisted query artifacts.",
+  "categories": 1,
+  "rules": 1,
+  "sections": [
+    {
+      "prefix": "discovery",
+      "name": "Discovery and exploratory guardrails",
+      "count": 1
+    }
+  ]
+}

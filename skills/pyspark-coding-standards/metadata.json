@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "author": "skillset contributors",
+  "abstract": "Write, review, or refactor PySpark DataFrame and Spark SQL transformations and batch pipelines with correct distributed semantics.",
+  "categories": 2,
+  "rules": 2,
+  "sections": [
+    {
+      "prefix": "dataframes",
+      "name": "DataFrames, SQL and distributed correctness",
+      "count": 1
+    },
+    {
+      "prefix": "recipes",
+      "name": "Transformation recipes",
+      "count": 1
+    }
+  ]
+}

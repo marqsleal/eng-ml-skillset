@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "author": "skillset contributors",
+  "abstract": "Diagnose and optimize PySpark distributed execution, joins, shuffles, skew, partitions, caching and I/O using plans and runtime evidence.",
+  "categories": 2,
+  "rules": 2,
+  "sections": [
+    {
+      "prefix": "optimization",
+      "name": "Measure, then optimize",
+      "count": 1
+    },
+    {
+      "prefix": "partitioning",
+      "name": "Partitions, files and Python",
+      "count": 1
+    }
+  ]
+}
