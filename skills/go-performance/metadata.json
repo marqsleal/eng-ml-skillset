@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "author": "samber (original guides); skillset contributors (organization)",
+  "abstract": "Measure, profile, troubleshoot, or improve Go application performance.",
+  "categories": 3,
+  "rules": 3,
+  "sections": [
+    {
+      "prefix": "benchmark",
+      "name": "Benchmark",
+      "count": 1
+    },
+    {
+      "prefix": "performance",
+      "name": "Performance",
+      "count": 1
+    },
+    {
+      "prefix": "troubleshooting",
+      "name": "Troubleshooting",
+      "count": 1
+    }
+  ]
+}

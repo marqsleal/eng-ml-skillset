@@ -1,0 +1,44 @@
+{
+  "version": "1.0.0",
+  "author": "samber (original guides); skillset contributors (organization)",
+  "abstract": "Configure or use Go development tools, modules, linting, project layout, and modernization.",
+  "categories": 7,
+  "rules": 7,
+  "sections": [
+    {
+      "prefix": "dependency-management",
+      "name": "Dependency Management",
+      "count": 1
+    },
+    {
+      "prefix": "lint",
+      "name": "Lint",
+      "count": 1
+    },
+    {
+      "prefix": "gopls",
+      "name": "Gopls",
+      "count": 1
+    },
+    {
+      "prefix": "modernize",
+      "name": "Modernize",
+      "count": 1
+    },
+    {
+      "prefix": "project-layout",
+      "name": "Project Layout",
+      "count": 1
+    },
+    {
+      "prefix": "pkg-go-dev",
+      "name": "Pkg Go Dev",
+      "count": 1
+    },
+    {
+      "prefix": "popular-libraries",
+      "name": "Popular Libraries",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "author": "samber (original guides); skillset contributors (organization)",
+  "abstract": "Write, review, or debug Go tests, including integration tests and testify when already used.",
+  "categories": 2,
+  "rules": 2,
+  "sections": [
+    {
+      "prefix": "testing",
+      "name": "Testing",
+      "count": 1
+    },
+    {
+      "prefix": "stretchr-testify",
+      "name": "Stretchr Testify",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "version": "1.0.0",
+  "author": "samber (original guides); skillset contributors (organization)",
+  "abstract": "Write, review, or refactor idiomatic Go code, including errors, types, concurrency, and design.",
+  "categories": 12,
+  "rules": 12,
+  "sections": [
+    {
+      "prefix": "code-style",
+      "name": "Code Style",
+      "count": 1
+    },
+    {
+      "prefix": "naming",
+      "name": "Naming",
+      "count": 1
+    },
+    {
+      "prefix": "structs-interfaces",
+      "name": "Structs Interfaces",
+      "count": 1
+    },
+    {
+      "prefix": "error-handling",
+      "name": "Error Handling",
+      "count": 1
+    },
+    {
+      "prefix": "safety",
+      "name": "Safety",
+      "count": 1
+    },
+    {
+      "prefix": "data-structures",
+      "name": "Data Structures",
+      "count": 1
+    },
+    {
+      "prefix": "concurrency",
+      "name": "Concurrency",
+      "count": 1
+    },
+    {
+      "prefix": "context",
+      "name": "Context",
+      "count": 1
+    },
+    {
+      "prefix": "design-patterns",
+      "name": "Design Patterns",
+      "count": 1
+    },
+    {
+      "prefix": "dependency-injection",
+      "name": "Dependency Injection",
+      "count": 1
+    },
+    {
+      "prefix": "refactoring",
+      "name": "Refactoring",
+      "count": 1
+    },
+    {
+      "prefix": "documentation",
+      "name": "Documentation",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "author": "samber (original guides); skillset contributors (organization)",
+  "abstract": "Develop or review Go web application security, database access, and existing Swagger documentation.",
+  "categories": 3,
+  "rules": 3,
+  "sections": [
+    {
+      "prefix": "database",
+      "name": "Database",
+      "count": 1
+    },
+    {
+      "prefix": "security",
+      "name": "Security",
+      "count": 1
+    },
+    {
+      "prefix": "swagger",
+      "name": "Swagger",
+      "count": 1
+    }
+  ]
+}

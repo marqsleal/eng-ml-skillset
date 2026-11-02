@@ -1,0 +1,59 @@
+{
+  "version": "1.0.0",
+  "author": "samber (original guides); skillset contributors (organization)",
+  "abstract": "Work with specific Go dependency injection, caching, logging, or functional libraries already selected by the project.",
+  "categories": 10,
+  "rules": 10,
+  "sections": [
+    {
+      "prefix": "google-wire",
+      "name": "Google Wire",
+      "count": 1
+    },
+    {
+      "prefix": "uber-dig",
+      "name": "Uber Dig",
+      "count": 1
+    },
+    {
+      "prefix": "uber-fx",
+      "name": "Uber Fx",
+      "count": 1
+    },
+    {
+      "prefix": "samber-do",
+      "name": "Samber Do",
+      "count": 1
+    },
+    {
+      "prefix": "samber-hot",
+      "name": "Samber Hot",
+      "count": 1
+    },
+    {
+      "prefix": "samber-lo",
+      "name": "Samber Lo",
+      "count": 1
+    },
+    {
+      "prefix": "samber-mo",
+      "name": "Samber Mo",
+      "count": 1
+    },
+    {
+      "prefix": "samber-oops",
+      "name": "Samber Oops",
+      "count": 1
+    },
+    {
+      "prefix": "samber-ro",
+      "name": "Samber Ro",
+      "count": 1
+    },
+    {
+      "prefix": "samber-slog",
+      "name": "Samber Slog",
+      "count": 1
+    }
+  ]
+}
