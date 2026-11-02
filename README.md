@@ -15,6 +15,10 @@ Catálogo de skills para orientar agentes de código em boas práticas. Cada dir
 | Go | [go-performance](skills/go-performance/SKILL.md) | Medição, diagnóstico e desempenho |
 | Go | [go-cli](skills/go-cli/SKILL.md) | Aplicações de linha de comando |
 | Go | [go-libraries](skills/go-libraries/SKILL.md) | Integrações com bibliotecas específicas |
+| SQL / Athena | [sql-athena-coding-standards](skills/sql-athena-coding-standards/SKILL.md) | Escrita e revisão de SQL para Athena |
+| SQL / Athena | [sql-athena-exploration](skills/sql-athena-exploration/SKILL.md) | Descoberta e exploração de dados com guardrails |
+| SQL / Athena | [sql-athena-performance](skills/sql-athena-performance/SKILL.md) | Planos, desempenho e custos de consultas |
+| SQL / Athena | [sql-athena-tooling](skills/sql-athena-tooling/SKILL.md) | AWS CLI para Glue, Athena e artefatos de consultas |
 | Terraform | [terraform-coding-standards](skills/terraform-coding-standards/SKILL.md) | Configuração e módulos de infraestrutura |
 | Workflow | [workflow-interview-me](skills/workflow-interview-me/SKILL.md) | Esclarecimento de necessidades |
 | Workflow | [workflow-spec-driven-development](skills/workflow-spec-driven-development/SKILL.md) | Especificações e requisitos |
