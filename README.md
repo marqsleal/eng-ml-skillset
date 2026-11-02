@@ -4,6 +4,8 @@ Catálogo de skills para orientar agentes de código em boas práticas. Cada dir
 
 | Área | Skill | Uso |
 | --- | --- | --- |
+| Geral | [logging-best-practices](skills/logging-best-practices/SKILL.md) | Logs estruturados, segurança, correlação e operação em qualquer linguagem |
+| AWS | [aws-logging-exploration](skills/aws-logging-exploration/SKILL.md) | Investigação de logs de aplicações e serviços, CloudTrail, CloudWatch e evidências |
 | Python | [python-coding-standards](skills/python-coding-standards/SKILL.md) | Padrões de código e design |
 | Python | [python-testing](skills/python-testing/SKILL.md) | Testes com pytest |
 | Python | [python-tooling](skills/python-tooling/SKILL.md) | Ferramentas e configuração |
