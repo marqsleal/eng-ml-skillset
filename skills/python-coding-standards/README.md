@@ -9,7 +9,7 @@ This skill provides 26 rules across 7 categories:
 | Category | Prefix | Impact | Rules |
 |----------|--------|--------|-------|
 | Error Handling | `error-` | CRITICAL | 1 |
-| Performance Optimization | `perf-` | CRITICAL | 5 |
+| Performance Optimization | `perf-` | Varies | 5 |
 | Async Processing | `async-` | HIGH | 4 |
 | Design Principles | `design-`, `solid-` | HIGH | 9 |
 | Documentation | `doc-` | HIGH | 2 |
@@ -41,8 +41,8 @@ skills/coding-standards/
 ### Error Handling (CRITICAL)
 - `error-no-silent-exceptions` - Never swallow exceptions
 
-### Performance Optimization (CRITICAL)
-- `perf-list-comprehension` - Prefer list comprehensions over loops
+### Performance Optimization (impact varies)
+- `perf-list-comprehension` - Use readable list comprehensions and measure performance
 - `perf-generator-expression` - Use generators for large datasets
 - `perf-dict-get` - Use dict.get() for efficient default values
 - `perf-set-lookup` - Use set for fast lookups

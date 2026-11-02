@@ -70,8 +70,8 @@ pyscn check .           # Quality gate
 
 ## Notes
 - Integrate these into CI/CD to catch issues before merge
-- See the [tooling skill](../tooling/SKILL.md) for detailed configuration
+- See the [tooling skill](../python-tooling/SKILL.md) for detailed configuration
 - Start with ruff and mypy, add others as needed
 
 ## References
-- [Python Tooling Skill](../tooling/SKILL.md)
+- [Python Tooling Skill](../python-tooling/SKILL.md)

@@ -1,18 +1,18 @@
 ---
 title: Prefer List Comprehensions Over Loops
-impact: CRITICAL
-impactDescription: 1.5-2x faster execution
+impact: MEDIUM
+impactDescription: Concise list construction when readable
 tags: [performance, loops, comprehension]
 ---
 
-# Prefer List Comprehensions Over Loops [CRITICAL]
+# Prefer Readable List Comprehensions [MEDIUM]
 
 ## Description
-Instead of building lists with for loops, use list comprehensions for more concise code and better performance. Comprehensions are optimized at the C level and avoid repeated `append` method calls.
+Use list comprehensions for straightforward list construction when they improve readability. Performance depends on Python version and workload; measure before optimizing. Prefer a loop for complex control flow or side effects.
 
 ## Bad Example
 ```python
-# Slow: repeated append calls
+# Verbose for straightforward list construction
 result: list[int] = []
 for i in range(1000):
     result.append(i * 2)
@@ -26,7 +26,7 @@ for item in items:
 
 ## Good Example
 ```python
-# Fast: list comprehension
+# Concise list comprehension
 result: list[int] = [i * 2 for i in range(1000)]
 
 # Comprehension with filtering

@@ -49,7 +49,7 @@ skills/tooling/
 ### Testing (HIGH)
 - `test-pytest` - Testing with pytest, fixtures, and coverage
 
-See the [testing skill](../testing/README.md) for how to write the tests themselves (structure, fixtures, parametrization, mocking).
+See the [testing skill](../python-testing/README.md) for how to write the tests themselves (structure, fixtures, parametrization, mocking).
 
 ### Package Management (MEDIUM)
 - `pkg-uv` - Fast package management with uv

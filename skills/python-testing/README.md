@@ -61,7 +61,7 @@ skills/testing/
 
 ## Related
 
-- [tooling / test-pytest](../tooling/rules/test-pytest.md) - pytest configuration, plugins, and coverage setup
+- [tooling / test-pytest](../python-tooling/rules/test-pytest.md) - pytest configuration, plugins, and coverage setup
 
 ## Usage
 

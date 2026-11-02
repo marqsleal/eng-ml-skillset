@@ -1,11 +1,6 @@
 ---
-name: coding-standards
+name: python-coding-standards
 description: Python coding standards and best practices covering error handling, performance optimization, async patterns, SOLID design principles, documentation, data validation, and object-oriented programming. Use when writing, reviewing, or refactoring Python code, or when the user asks about Python style, design, or best practices.
-paths:
-  - "**/*.py"
-  - "pyproject.toml"
-  - "setup.py"
-  - "requirements*.txt"
 ---
 
 # Python Coding Standards
@@ -21,12 +16,12 @@ Prevent failures from being hidden or reported as successful outcomes.
 |------|-------------|
 | [error-no-silent-exceptions](rules/error-no-silent-exceptions.md) | Never swallow exceptions |
 
-### Performance Optimization [CRITICAL]
-Apply Python optimization patterns to improve processing speed and memory efficiency.
+### Performance Optimization
+Choose optimizations based on readability and measured workload needs.
 
 | Rule | Description |
 |------|-------------|
-| [perf-list-comprehension](rules/perf-list-comprehension.md) | Prefer list comprehensions over loops (1.5-2x faster) |
+| [perf-list-comprehension](rules/perf-list-comprehension.md) | Use readable list comprehensions when appropriate; measure performance |
 | [perf-generator-expression](rules/perf-generator-expression.md) | Use generators for large datasets (O(1) memory) |
 | [perf-dict-get](rules/perf-dict-get.md) | Use dict.get() for efficient default values |
 | [perf-set-lookup](rules/perf-set-lookup.md) | Use set for fast lookups (O(1) vs O(n)) |

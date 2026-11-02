@@ -2,6 +2,8 @@
 
 Catálogo de skills para orientar agentes de código em boas práticas. Cada diretório em `skills/` contém um `SKILL.md` com as instruções e, quando necessário, referências adicionais.
 
+Para validar estrutura, metadados e links locais, execute `python3 scripts/validate_skills.py`. O contrato dos metadados está em [METADATA.md](METADATA.md).
+
 | Área | Skill | Uso |
 | --- | --- | --- |
 | Geral | [logging-best-practices](skills/logging-best-practices/SKILL.md) | Logs estruturados, segurança, correlação e operação em qualquer linguagem |
@@ -24,7 +26,7 @@ Catálogo de skills para orientar agentes de código em boas práticas. Cada dir
 | SQL / Spark | [sql-spark-coding-standards](skills/sql-spark-coding-standards/SKILL.md) | Construção, revisão e validação de consultas Spark SQL |
 | PySpark | [pyspark-coding-standards](skills/pyspark-coding-standards/SKILL.md) | DataFrames, Spark SQL e transformações batch |
 | PySpark | [pyspark-performance](skills/pyspark-performance/SKILL.md) | Planos, particionamento, execução e desempenho |
-| PySpark | [pyspark-testing](skills/pyspark-testing/SKILL.md) | Testes locais e validação de transformações |
+| PySpark | [pyspark-testing](skills/pyspark-testing/SKILL.md) | Testes e validação de transformações em ambiente autorizado |
 | PySpark | [pyspark-streaming](skills/pyspark-streaming/SKILL.md) | Structured Streaming, estado e recuperação |
 | PySpark | [pyspark-tooling](skills/pyspark-tooling/SKILL.md) | Ambiente, execução e diagnóstico |
 | Terraform | [terraform-coding-standards](skills/terraform-coding-standards/SKILL.md) | Configuração e módulos de infraestrutura |

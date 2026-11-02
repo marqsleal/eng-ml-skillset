@@ -1,11 +1,6 @@
 ---
-name: testing
+name: python-testing
 description: Python test-writing best practices covering test structure, fixtures, parametrization, and mocking with pytest. Use when writing, reviewing, or refactoring tests, adding test coverage, or working in tests directories and conftest.py.
-paths:
-  - "tests/**"
-  - "**/test_*.py"
-  - "**/*_test.py"
-  - "**/conftest.py"
 ---
 
 # Python Testing
@@ -115,4 +110,4 @@ def test_reads_api_key(monkeypatch: pytest.MonkeyPatch) -> None:
 
 ## See Also
 
-- [tooling / test-pytest](../tooling/rules/test-pytest.md) - pytest configuration, fixtures setup, and coverage
+- [tooling / test-pytest](../python-tooling/rules/test-pytest.md) - pytest configuration, fixtures setup, and coverage

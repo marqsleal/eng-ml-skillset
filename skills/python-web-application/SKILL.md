@@ -1,12 +1,6 @@
 ---
-name: web-application
+name: python-web-application
 description: FastAPI web application best practices covering authentication and authorization, SQLAlchemy 2.0 async sessions, transactions, eager loading, and Alembic migrations, non-blocking I/O and shared HTTP clients, request/response schemas, error responses, pagination, typed settings, app factory and lifespan, request-ID logging, and endpoint testing. Use when building, reviewing, or refactoring a FastAPI backend or REST API, or code that touches SQLAlchemy, Alembic, authentication, or HTTP endpoints. Not for Django or Flask projects.
-paths:
-  - "alembic.ini"
-  - "**/alembic/**"
-  - "**/migrations/**"
-  - "**/routers/**"
-  - "**/api/**"
 ---
 
 # Python Web Application
@@ -222,6 +216,6 @@ async def client(
 
 ## See Also
 
-- [coding-standards](../coding-standards/SKILL.md) - General Python rules; `validation-pydantic`, `design-dependency-injection`, `design-no-global-singleton`, and `error-no-silent-exceptions` underlie several rules here
-- [testing](../testing/SKILL.md) - pytest structure, fixtures, and mocking that endpoint tests still follow
-- [tooling](../tooling/SKILL.md) - ruff, mypy, and pytest configuration; ruff's `S` rules catch several issues covered here
+- [coding-standards](../python-coding-standards/SKILL.md) - General Python rules; `validation-pydantic`, `design-dependency-injection`, `design-no-global-singleton`, and `error-no-silent-exceptions` underlie several rules here
+- [testing](../python-testing/SKILL.md) - pytest structure, fixtures, and mocking that endpoint tests still follow
+- [tooling](../python-tooling/SKILL.md) - ruff, mypy, and pytest configuration; ruff's `S` rules catch several issues covered here

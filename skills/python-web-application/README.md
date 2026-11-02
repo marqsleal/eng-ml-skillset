@@ -99,11 +99,11 @@ All examples share one invoice application. Models (`User`, `Invoice`, `InvoiceL
 
 ## Related
 
-- [coding-standards / validation-pydantic](../coding-standards/rules/validation-pydantic.md) - Boundary validation that `api-separate-schemas` and `config-typed-settings` build on
-- [coding-standards / design-no-global-singleton](../coding-standards/rules/design-no-global-singleton.md) - Same principle behind `app-factory-lifespan` and `db-session-per-request`
-- [coding-standards / error-no-silent-exceptions](../coding-standards/rules/error-no-silent-exceptions.md) - Exception handling behind `api-error-responses`
-- [testing / mock-boundaries](../testing/rules/mock-boundaries.md) - Mocking only external boundaries, as in `test-dependency-overrides`
-- [testing / fixture-factory](../testing/rules/fixture-factory.md) - Factory fixtures used in `test-db-rollback`
+- [coding-standards / validation-pydantic](../python-coding-standards/rules/validation-pydantic.md) - Boundary validation that `api-separate-schemas` and `config-typed-settings` build on
+- [coding-standards / design-no-global-singleton](../python-coding-standards/rules/design-no-global-singleton.md) - Same principle behind `app-factory-lifespan` and `db-session-per-request`
+- [coding-standards / error-no-silent-exceptions](../python-coding-standards/rules/error-no-silent-exceptions.md) - Exception handling behind `api-error-responses`
+- [testing / mock-boundaries](../python-testing/rules/mock-boundaries.md) - Mocking only external boundaries, as in `test-dependency-overrides`
+- [testing / fixture-factory](../python-testing/rules/fixture-factory.md) - Factory fixtures used in `test-db-rollback`
 
 ## Usage
 
