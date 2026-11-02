@@ -1,0 +1,11 @@
+# Athena performance and cost
+
+- Establish baseline SQL, workgroup, effective engine, table format, partitions, actual bytes scanned and execution time. Athena execution statistics distinguish queue, planning and engine time; reused results are not comparable to fresh scans. Compare equivalent workloads and results, and report missing metrics.
+- Reduce scanned data through relevant partition predicates and selecting needed columns. Check actual pruning with `EXPLAIN` when appropriate. Hive partition keys may require a separate predicate from a timestamp; Iceberg transforms differ. `LIMIT` is not a scan or cost ceiling.
+- Consider Parquet/ORC, compression, file sizes, partition cardinality, partition projection and Glue partition indexes where supported and appropriate. Data layout changes are recommendations, not permission to rewrite data or modify catalog settings.
+- Review join cardinality, filtering before joins, expensive sorts, window functions and aggregations; evaluate tradeoffs against real plans and data. Do not automatically recommend traditional database indexes for Athena.
+- `EXPLAIN` does not scan source data but can generate Glue metadata charges. `EXPLAIN ANALYZE` runs the query and can scan data; apply read-only and cost constraints first. A workgroup scan cutoff can cancel a query but does not eliminate costs already incurred or other service charges.
+- Report observed scan bytes and elapsed times. Estimate money only when the actual pricing model, region, units, minimums and relevant other charges are known; do not hard-code a universal per-TB price. Provisioned capacity, result reuse, Glue and storage can change the calculation.
+- Persist any agent-issued SQL or catalog request and its result per [tooling artifact rules](../../../sql-athena-tooling/rules/cli/guide.md). Do not execute DDL, DML or other source mutations via AWS CLI during tests or exploration.
+
+References: [Athena EXPLAIN](https://docs.aws.amazon.com/athena/latest/ug/athena-explain-statement.html), [data optimization](https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-data-optimization-techniques.html), [partitioning](https://docs.aws.amazon.com/athena/latest/ug/ctas-partitioning-and-bucketing-what-is-partitioning.html).
